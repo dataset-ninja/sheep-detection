@@ -1,4 +1,3 @@
-# Path to the original dataset
 import os
 import xml.etree.ElementTree as ET
 
