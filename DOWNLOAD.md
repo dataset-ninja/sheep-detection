@@ -1,6 +1,6 @@
-Dataset **Sheep Detection** can be downloaded in Supervisely format:
+Dataset **Sheep Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervise.ly/supervisely-supervisely-assets-public/teams_storage/k/z/qu/LHQuKiniDmOXAXMZdmewNMw6UkQU8eETkDvK6pmZmyEh58Q4MM428jMlwYAMNkVRVNMIc0l3b0O86CvbIQ92R231u9SfXulG0WmrkUsC88oQVa8Z6arF71EwKgVg.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/k/z/qu/LHQuKiniDmOXAXMZdmewNMw6UkQU8eETkDvK6pmZmyEh58Q4MM428jMlwYAMNkVRVNMIc0l3b0O86CvbIQ92R231u9SfXulG0WmrkUsC88oQVa8Z6arF71EwKgVg.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Sheep Detection', dst_path='~/dtools/datasets/Sheep Detection.tar')
+dtools.download(dataset='Sheep Detection', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/andrewmvd/sheep-detection/download?datasetVersionNumber=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/andrewmvd/sheep-detection/download?datasetVersionNumber=1)

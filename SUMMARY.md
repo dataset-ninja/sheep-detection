@@ -1,4 +1,4 @@
-**Sheep Detection** is a dataset for object detection tasks. Possible applications of the dataset could be in the livestock industry. 
+**Sheep Detection** is a dataset for an object detection task. Possible applications of the dataset could be in the livestock industry. 
 
 The dataset consists of 203 images with 331 labeled objects belonging to 1 single class (*sheep*).
 
