@@ -1,6 +1,6 @@
 Dataset **Sheep Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/nvv7jjb01rfa1p2chwjpd/sheep-detection-DatasetNinja.tar?rlkey=fwzbka1bqcr5wlxy9cvhnw0kn&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEwMTZfU2hlZXAgRGV0ZWN0aW9uL3NoZWVwLWRldGVjdGlvbi1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJXT3drdDkvNG5BTW5XWVAxVlA1SE5ab0hIMGlnMC9uYTZTalNJdW9mYmdRPSJ9)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
